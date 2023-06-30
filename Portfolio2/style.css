@@ -365,7 +365,7 @@ nav ul a li:hover {
   height: 100%;
   border-radius: 10px;
   background-color: #580ef6;
-  animation: leftToRight1 8s ease-in 3;
+  animation: leftToRight1 4s ease-in 3;
 }
 @keyframes leftToRight1 {
   0% {
