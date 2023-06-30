@@ -365,11 +365,14 @@ nav ul a li:hover {
   height: 100%;
   border-radius: 10px;
   background-color: #580ef6;
-  animation: leftToRight1 4s ease-in 1;
+  animation: leftToRight1 4s ease-in 2;
 }
 @keyframes leftToRight1 {
-  0% {
+  from {
     width: 0%;
+  }
+  to{
+    width: 90%;
   }
 }
 .scaleValue2 {
@@ -380,8 +383,11 @@ nav ul a li:hover {
   animation: leftToRight2 8s ease-in 10;
 }
 @keyframes leftToRight2 {
-  0% {
+  from {
     width: 0%;
+  }
+  to{
+    width: 90%;
   }
 }
 .scaleValue3 {
@@ -392,8 +398,11 @@ nav ul a li:hover {
   animation: leftToRight3 8s ease-in 10;
 }
 @keyframes leftToRight3 {
-  0% {
+  from {
     width: 0%;
+  }
+  to{
+    width: 90%;
   }
 }
 
@@ -402,11 +411,14 @@ nav ul a li:hover {
   height: 100%;
   border-radius: 10px;
   background-color: #580ef6;
-  animation: leftToRight3 8s ease-in 10;
+  animation: leftToRight4 8s ease-in 10;
 }
-@keyframes leftToRight3 {
-  0% {
+@keyframes leftToRight4 {
+  from {
     width: 0%;
+  }
+  to{
+    width: 95%;
   }
 }
 
