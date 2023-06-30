@@ -1,0 +1,816 @@
+@media(max-width:1200px ){
+    /* .get-started{
+       
+    } */
+    nav ul {
+        width: 4000px;
+        /* border: solid; */
+        padding: 0;
+    }
+    nav ul li a{
+        /* border: solid; */
+        margin-left: 15px;
+    }
+    
+}
+@media(max-width:1000px ){
+    
+    nav ul{
+        left:21% ;
+        transition: all .2s ease-in;
+        /* border: solid; */
+    }
+    
+    
+    .sign-ups{
+        margin-left: 40%;
+        transition: all .2s ease-in;
+    }
+    .picture-img{
+        width: 90%;
+        margin-left: 110px;
+        transition: all .2s ease-in;
+    }
+    .blue-divp1{
+        margin-left: 18%;
+        transition: all .2s ease-in;
+    }
+    .card1{
+        width: 18%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(209, 248, 248);
+        border-radius: 10px;
+        /* margin-left: 200px; */
+        transition: all .2s ease-in;
+    }
+    .card2{
+        width: 18%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(238, 236, 248);
+        border-radius: 10px;
+        margin-left: 50px;
+        transition: all .2s ease-in;
+    }
+    .card3{
+        width: 18%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(248, 227, 227);
+        border-radius: 10px;
+        margin-left: 50px;
+        transition: all .2s ease-in;
+    }
+    .number{
+        color: white;
+        font-size: 45px;
+        /* border: solid; */
+        height: 86px;
+        font-weight: bold;
+        position: relative;
+        left: 138px;
+        top: -30px;
+        transition: all .2s ease-in;
+    }
+    .card-pic{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+        position: relative;
+        top: -20px;
+        border-radius: 10px;
+        transition: all .2s ease-in;
+    }
+    .box-pic{
+        width: 50px;
+        transition: all .2s ease-in;
+    }
+    .box-p{
+        font-weight: 400;
+        font-size: 10px;
+        transition: all .2s ease-in;
+    }
+    .fourth-section-div2{
+        width: 50%;
+        height: 400px;
+        background-color: #FAFAFA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: solid; */
+        transition: all .2s ease-in;
+    }
+    
+    .fourth-section-div2-pic{
+        width: 69%;
+        height: 70%;
+        margin-left: 30px;
+        transition: all .2s ease-in;
+    }
+    .p1{
+        width: 95%;
+        margin-left: 20px;
+        color: whitesmoke;
+        font-size: 12px;
+        transition: all .2s ease-in;
+    }
+    .p2{
+        width: 92%;
+        color: whitesmoke;
+        margin-left: 40px;
+        font-size: 12px;
+        transition: all .2s ease-in;
+    }
+    .p3{
+        width: 30%;
+        color: whitesmoke;
+        margin-left: 350px;
+        font-size: 12px;
+        transition: all .2s ease-in;
+    }
+    .map-pic{
+        width: 55%;
+        height: 60%;
+        margin-left: 22%;
+        transition: all .2s ease-in;
+    }
+    .container-content p{
+        font-size: 10px;
+        margin-top: 7px;
+        font-weight: 400;
+        transition: all .2s ease-in;
+    }
+    .content1 p{
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 10px;
+        transition: all .2s ease-in;
+    }
+    .content-pics{
+        width: 40px;
+        height: 40px;
+        transition: all .2s ease-in;
+    }
+    .transparent-see-through{
+        /* border: solid; */
+        height: 180px;
+        border-radius: 8px;
+        /* border: solid; */
+        position: relative;
+        left: -88px;
+        
+        top: 70px;
+        animation: upToDown 5s infinite ;
+        transition: all .2s ease-in;
+    }
+    .last-div-picture-div{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: all .2s ease-in;
+    }
+    .last-div-content{
+        width: 70%;
+        height: 100%;
+        color: whitesmoke;
+        padding-left: 20px;
+        transition: all .2s ease-in;
+    }
+    .footer-div li a {
+        color: whitesmoke;
+        margin-left: 9px;
+        font-size: 10px;
+        transition: all .2s ease-in;
+    }
+    .footer-div2 li a {
+        color: whitesmoke;
+        margin-left: 33px;
+        font-size: 10px;
+        transition: all .2s ease-in;
+    }
+    .cloud-curl2{
+        width: 200px;
+        height: 280px;
+        position: relative;
+        left: 22%;
+        transition: all .2s ease-in;
+    }
+    .cloud-curl2{
+        width: 200px;
+        height: 280px;
+        position: relative;
+        left: 10%;
+        transition: all .2s ease-in;
+    }
+    .cloud-curl3{
+        width: 200px;
+        height: 180px;
+        position: relative;
+        left: -10%;
+        top: 19%;
+        transition: all .2s ease-in;
+    }
+}
+
+
+@media(max-width:999px ){
+    
+    .writeup-header{
+        font-size: 40px;
+        color: #4267B2;
+        font-weight: bold;
+        text-shadow: grey  2px 4px 4px ;
+    
+    }
+    
+    .writeup-p{
+        /* font-weight: 300; */
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .picture-img{
+        width: 80%;
+        height: 90%;
+        margin-right: 100px;
+    }
+    .blue-divp1{
+        margin-left: 0%;
+    }
+    .blue-divp2{
+        margin-left: 35%;
+    }
+    .card1{
+        width: 15%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(209, 248, 248);
+        border-radius: 10px;
+        /* margin-left: 220px; */
+    }
+    .card2{
+        width: 15%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(238, 236, 248);
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+    .card3{
+        width: 15%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(248, 227, 227);
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+    .number{
+        color: white;
+        font-size: 50px;
+        /* border: solid; */
+        height: 86px;
+        font-weight: bold;
+        position: relative;
+        left: 80px;
+        top: -30px;
+    }
+    .card-p{
+        font-size: 9px;
+        font-weight: 500;
+        padding: 20px;
+        position: relative;
+        top: -40px;
+    }
+    .container-content p{
+        font-size: 10px;
+        margin-top: 7px;
+        font-weight: 400;
+    }
+    .transparent-see-through{
+        /* border: solid; */
+        height: 180px;
+        border-radius: 8px;
+        /* border: solid; */
+        position: relative;
+        left: -88px;
+        
+        top: 70px;
+        animation: upToDown 5s infinite ;
+        transition: all .2s ease-in;
+    }
+
+
+}
+
+@media(max-width:899px ){
+    
+    .sign-ups{
+        margin-left: 35%;
+        transition: all .2s ease-in;
+    }
+    
+    .writeup-header{
+        font-size: 38px;
+        color: #4267B2;
+        font-weight: bold;
+        text-shadow: grey  2px 4px 4px ;
+    
+    }
+    .yellow-paint{
+        position: absolute;
+        z-index: -1;
+        left: 70px;
+        top: 131px;
+        width: 125px;
+    }
+    .card1{
+        width: 13%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(209, 248, 248);
+        border-radius: 10px;
+        /* margin-left: 190px; */
+    }
+    .card1:hover{
+        transform: scale(1.5);
+        transition: .5s;
+    }
+    .card2:hover{
+        transform: scale(1.5);
+        transition: .5s;
+    }
+    .card3:hover{
+        transform: scale(1.5);
+        transition: .5s;
+    }
+    .card2{
+        width: 13%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(238, 236, 248);
+        border-radius: 10px;
+        margin-left: 60px;
+    }
+    .card3{
+        width: 13%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(248, 227, 227);
+        border-radius: 10px;
+        margin-left: 60px;
+    }
+    .number{
+        color: white;
+        font-size: 40px;
+        /* border: solid; */
+        height: 76px;
+        font-weight: bold;
+        position: relative;
+        left: 70px;
+        top: -20px;
+    }
+    .card-pic{
+        width: 26px;
+        height: 26px;
+        margin-left: 20px;
+        position: relative;
+        top: -20px;
+        border-radius: 10px;
+        
+    }
+    .card-p{
+        font-size: 8px;
+        line-height: 1.1;
+        font-weight: 500;
+        padding: 10px;
+        position: relative;
+        top: -30px;
+    }
+    
+    .p1{
+        width: 100%;
+        margin-left: 0px;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+    .p2{
+        width: 95%;
+        color: whitesmoke;
+        margin-left: 39px;
+        font-size: 10px;
+    }
+    .p3{
+        width: 50%;
+        color: whitesmoke;
+        margin-left: 250px;
+        font-size: 10px;
+    }
+    .container-pic{
+        width: 25%;
+        height: 100%;
+        /* border: solid red; */
+        /* background-size: cover; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-img{
+        width: 70%;
+        height: 60%;
+        border-radius: 5px;
+    }
+    .container-content h1{
+        font-size: 20px;
+        
+    }
+    .container-content{
+        line-height: 1.2;
+        width: 50%;
+        height: 100%;
+        /* border: solid blue; */
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .container-content p{
+        font-size: 9px;
+        margin-top: 7px;
+        font-weight: 400;
+    }
+    .cloud-curls{
+        height: 300px;
+        position: absolute;
+        left: 84%;
+        top: 490%;
+        z-index: 1;
+    }
+    .transparent-see-through{
+        /* border: solid; */
+        height: 230px;
+        border-radius: 8px;
+        position: relative;
+        left: -128px;
+        top: 90px;
+        animation: upToDown 5s infinite ;
+    }
+    .footer-div2 li a {
+        color: whitesmoke;
+       margin-left: 33px;
+       font-size: 10px;
+    }
+    .footer-div2{
+        width: 290px;
+        height: auto;
+        margin-left: 10px;
+    }
+}
+@media(max-width:850px){
+
+}
+    
+
+
+@media(max-width:799px){
+    
+    .sign-ups{
+        margin-left: 30%;
+        transition: all .2s ease-in;
+    }
+    nav ul{
+        left:20% ;
+        transition: all .2s ease-in;
+    }
+    nav ul li{
+        font-size: 13px;
+        
+    }
+    .writeup-header{
+        font-size: 32px;
+        color: #4267B2;
+        font-weight: bold;
+        text-shadow: grey  2px 4px 4px ;
+    
+    }
+    .black-span{
+        color: black;
+        font-size: 32px;
+        text-shadow: grey  2px 4px 4px ;
+    }
+    .red-span{
+        color: #F94D53;
+        font-size: 32px;
+        text-shadow: grey  2px 4px 4px ;
+    }
+    .picture-img{
+        width: 88%;
+        height: 80%;
+        margin-right: 100px;
+    }
+    .blue-divp1{
+        margin-left: 0%;
+        font-size: 13px;
+    }
+    .blue-divp2{
+        margin-left: 34%;
+        font-size: 13px;
+    }
+
+    .card1{
+        width: 18%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(209, 248, 248);
+        border-radius: 10px;
+        /* margin-left: 110px; */
+    }
+    
+    .card2{
+        width: 18%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(238, 236, 248);
+        border-radius: 10px;
+        margin-left: 60px;
+    }
+    .card3{
+        width: 18%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(248, 227, 227);
+        border-radius: 10px;
+        margin-left: 60px;
+    }
+    .number{
+        color: white;
+        font-size: 40px;
+        /* border: solid; */
+        height: 76px;
+        font-weight: bold;
+        position: relative;
+        left: 70px;
+        top: -20px;
+    }
+    .card-pic{
+        width: 26px;
+        height: 26px;
+        margin-left: 20px;
+        position: relative;
+        top: -20px;
+        border-radius: 10px;
+        
+    }
+    .card-p{
+        font-size: 8px;
+        line-height: 1.1;
+        font-weight: 500;
+        padding: 10px;
+        position: relative;
+        top: -30px;
+    }
+    .fourth-section{
+        overflow: hidden;
+    }
+    .fourth-section-div2-pic{
+        width: 85%;
+        height: 80%;
+        margin-left: 30px;
+        margin-top: 80px;
+        /* border: solid; */
+    }
+    .p1{
+        width: 100%;
+        margin-left: 0px;
+        color: whitesmoke;
+        font-size: 9px;
+        /* border: solid; */
+    }
+    .p2{
+        width: 99%;
+        color: whitesmoke;
+        margin-left: 29px;
+        font-size: 9px;
+    }
+    .p3{
+        width: 50%;
+        color: whitesmoke;
+        margin-left: 250px;
+        font-size: 10px;
+    }
+    .container-pic{
+        width: 45%;
+        height: 100%;
+        /* border: solid red; */
+        /* background-size: cover; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cloud-curls{
+        height: 300px;
+        position: absolute;
+        left: 82%;
+        top: 490%;
+        z-index: 1;
+    }
+    .footer-div{
+        /* border: solid; */
+        margin-right: 40px;
+        line-height: 1.1;
+    }
+    .footer-div2{
+        width: 380px;
+        height: auto;
+        margin-left: 7px;
+        /* border: solid; */
+    }
+    .footer-div2 li a {
+        color: whitesmoke;
+       margin-left: 3px;
+       font-size: 10px;
+    }
+    .footer-div li :hover {
+        border-bottom: solid;
+    }
+    .footer-div2 li :hover {
+        border-bottom: solid;
+    }
+    .footer-div3 li :hover {
+        border-bottom: solid;
+    }
+    .footer-div2 h4{
+        color: whitesmoke;
+        margin-left: 0px;
+        font-size: 30px;
+    }
+    .last-div-content{
+        width: 50%;
+        height: 100%;
+        color: whitesmoke;
+        padding-left: 20px;
+        font-size: 13px;
+        line-height: 1.1;
+    }
+    
+}
+
+
+@media(max-width:669px){
+    .transparent-see-through{
+        /* border: solid; */
+        height: 150px;
+        border-radius: 8px;
+        position: relative;
+        left: 190px;
+        top: -80px;
+        animation: upToDown 5s infinite ;
+
+    }
+    .id-card{
+        width: 190px;
+        height: 300px;
+        position: relative;
+        top: 60px;
+        left: -30px;
+        animation: downToUp 5s infinite;
+    }
+}
+
+@media(max-width:600px){
+   
+    .checkbtn{
+        display: block;
+        transition: .5s;
+    }
+  
+    nav ul{
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background-color: white;
+        top: 0px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 5;
+    }
+        
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        color: black;
+        display: block;
+    }
+    a:hover,a.active{
+        background: none;
+    }
+    
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .sign-ups{
+        margin-left: 55%;
+    }
+
+    .blue-divp1{
+        margin-left: 4%;
+        font-size: 11px;
+    }
+    .blue-divp2{
+        margin-left: 268;
+    }
+    .fifth-section-header{
+        width: 100%;
+        height: 60px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: solid; */
+        font-size: 15px;
+        z-index: -1;
+        
+    }
+    .p1{
+        width: 100%;
+        margin-left: 5px;
+        color: whitesmoke;
+        font-size: 7.5px;
+    }
+    .p2{
+        width: 98%;
+        color: whitesmoke;
+        margin-left: 19px;
+        font-size: 7.5px;
+    }
+    .p3{
+        width: 50%;
+        color: whitesmoke;
+        margin-left: 199px;
+        font-size: 7.5px;
+    }
+    .container-content p{
+        font-size: 7.2px;
+        margin-top: 7px;
+        font-weight: 400;
+    }
+    .yellow-see-through{
+        height: 150px;
+        position: relative;
+        left: 10px;
+        top: -20px;
+        border-radius: 6px;
+        z-index: 1;
+        animation: upToDown 5s infinite ;
+    }
+    .id-card{
+        width: 200px;
+        height: 260px;
+        position: relative;
+        top: 140px;
+        left: -30px;
+        animation: downToUp 5s infinite;
+    }
+    .transparent-see-through{
+        /* border: solid; */
+        height: 150px;
+        border-radius: 8px;
+        position: relative;
+        left: 160px;
+        top: -30px;
+        animation: upToDown 5s infinite ;
+    }
+    .cloud-curls{
+        height: 300px;
+        position: absolute;
+        left: 78%;
+        top: 490%;
+        z-index: 1;
+    }
+    .card1:hover{
+        transform: scale(1.3);
+        transition: .5s;
+    }
+    .card2:hover{
+        transform: scale(1.3);
+        transition: .5s;
+    }
+    .card3:hover{
+        transform: scale(1.3);
+        transition: .5s;
+    }
+    .card1{
+        width: 18%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(209, 248, 248);
+        border-radius: 10px;
+        /* margin-left: 80px; */
+    }
+    
+}

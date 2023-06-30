@@ -1,0 +1,437 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+
+  box-sizing: border-box;
+}
+body {
+  font-family: montserrat;
+  padding: 0px;
+}
+::-webkit-scrollbar {
+  width: 1vw;
+}
+::-webkit-scrollbar-track {
+  background: gray;
+}
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 10px;
+}
+.container {
+  background: url(./photos/happy-senior-businessman-male-doctor-handshaking-while-greeting-hallway-clinic.jpg)
+    no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  margin-top: 0px;
+}
+.nav1 {
+  width: 100%;
+  height: 80px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  display: flex;
+  position: fixed;
+  z-index: 3;
+}
+.logo {
+  color: #0909ff;
+  font-weight: bolder;
+  font-size: 40px;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px black;
+}
+.logo_span {
+  color: azure;
+}
+.logo-leaf {
+  height: 40px;
+}
+form {
+  border: solid #3a3b3c 4px;
+  color: #555;
+  display: flex;
+  padding: 2px;
+  margin-left: 70px;
+  border-radius: 18px;
+  margin-top: 10px;
+}
+input[type="search"] {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  border: 1px solid transparent;
+  caret-color: blue;
+  border-radius: 20px;
+}
+input[type="search"]:focus {
+  outline: none;
+  background-color: whitesmoke;
+}
+
+input[type="search"]::placeholder {
+  color: black;
+}
+button[type="submit"] {
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin-left: 3px;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: white
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat center;
+  cursor: pointer;
+  opacity: 0.7;
+  border-radius: 20px;
+  height: 30px;
+}
+
+button[type="submit"]:hover {
+  opacity: 1;
+}
+.dropbtn {
+  background: transparent;
+  color: white;
+  padding: 16px;
+
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: 19px;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  min-width: 160px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  z-index: 3;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: blue;
+
+  font-weight: bold;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background: transparent;
+  color: whitesmoke;
+  transition: 0.5s;
+}
+
+.nav2 {
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(to right, #000000, #0000a5, #000000);
+  position: fixed;
+  z-index: 2;
+  margin-top: 70px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+}
+ul li {
+  display: inline-block;
+  margin: 6px 29px;
+}
+ul li a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+  border-radius: 5px;
+}
+.nav_div {
+  padding-top: 7px;
+  height: 32px;
+  border-bottom: 4px whitesmoke;
+  margin-left: 20px;
+}
+.nav_div:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-out;
+}
+
+a.active,
+a:hover {
+  color: white;
+  transition: 0.5s;
+}
+.space1 {
+  justify-content: end;
+  width: 100%;
+  height: 456px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.write {
+  width: 45%;
+  flex: 4;
+  padding: 40px;
+}
+.write-in {
+  margin-top: 280px;
+  border-radius: 10px;
+  height: 80%;
+  width: 500px;
+  background: transparent;
+
+  backdrop-filter: blur(5px);
+}
+.green {
+  color: blue;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: 4px 4px 4px black;
+}
+.art1 {
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 4px 4px 4px black;
+  color: white;
+}
+.cards {
+  width: 100%;
+  height: 300px;
+  background-color: #2c3539;
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  height: 282px;
+  width: 200px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+  padding: 10px;
+}
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+  cursor: pointer;
+}
+.card:hover .card-note {
+  color: whitesmoke;
+}
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+.title {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+.bar {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  height: 5px;
+  width: 150px;
+}
+.emptybar {
+  background-color: #2e3033;
+  width: 100%;
+  height: 100%;
+}
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0, 154, 217);
+  background: linear-gradient(to right, #00008b, #ebf4fa 100%);
+  transition: 0.6s ease-out;
+}
+.card:hover .filledbar {
+  width: 149px;
+  transition: 0.4s ease-out;
+}
+.card-note {
+  margin-top: 120px;
+  color: #726e6d;
+}
+.overview {
+  width: 100%;
+  height: 40px;
+  color: #0000a5;
+  font-weight: bolder;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 {
+  width: 100%;
+  /* have to make this responsive for smaller screens */
+  height: 140vh;
+  padding-top: 40px;
+  background-color: #3a3b3c;
+}
+.services {
+  font-weight: bolder;
+  font-size: 34px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 {
+  padding: 29px 15px 0px 15px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.menu1-background {
+  width: 23%;
+  height: 320px;
+  background: url(./photos/lines.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+.menu1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #17141d;
+  padding: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 2);
+  transition: all 0.3s ease-in;
+}
+.menu1:hover {
+  border: none;
+  transform: translate(10px, -20px);
+  transition: all 0.3s ease-out;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 2);
+}
+.menu-title {
+  border-bottom: solid 4px #0077ff;
+  width: 100%;
+  height: 60px;
+  border-radius: 3px;
+  color: whitesmoke;
+}
+.menu-h3 {
+  padding-left: 48px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.card-content {
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+  padding: 5px;
+  color: white;
+}
+.card-span {
+  color: #2b65ec;
+  font-weight: bold;
+}
+.card-button {
+  margin-top: 20px;
+  margin-left: 150px;
+  z-index: 1;
+  border: 2px solid #0077ff;
+  border-radius: 6px;
+  position: relative;
+  color: #0077ff;
+  overflow: hidden;
+  width: 6em;
+  height: 2.6em;
+  border: 2px solid #0077ff;
+  font-size: 17px;
+}
+.card-button:hover {
+  opacity: 1;
+  background-color: #0077ff;
+  color: whitesmoke;
+  transition: 0.5s;
+}
+.container2ii {
+  padding: 15px 10px 10px 15px;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 190px;
+  margin-bottom: 100px;
+}
+.menu2-background {
+  width: 23%;
+  height: 320px;
+  background: url(./photos/lines.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+.menu2 {
+  height: 320px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #17141d;
+  padding: 10px;
+
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 2);
+  transition: all 0.3s ease-in;
+}
+.menu2:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 2);
+  border: none;
+  transform: translate(10px, -20px);
+  transition: all 0.3s ease-out;
+}
+.overview-div {
+  width: 100%;
+  height: 40vh;
+  padding: 40px;
+  background: url(./photos/istockphoto-1319844646-612x612.jpg) no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}

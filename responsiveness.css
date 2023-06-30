@@ -1,0 +1,494 @@
+@media (max-width: 1366px) {
+  .intro {
+    color: #f7f7f7;
+    font-size: 65px;
+    font-weight: bolder;
+    margin-top: 30px;
+  }
+
+  .intro2 {
+    color: #f7f7f7;
+    font-size: 65px;
+    font-weight: bolder;
+  }
+
+  .headerSectionFirstHalf p {
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .headerBlob {
+    width: 75%;
+    height: 80%;
+    transform: scale(1.1);
+    isolation: isolate;
+    opacity: 1;
+  }
+
+  .imageCircle {
+    /* border: solid white; */
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 240px;
+    top: 203px;
+    border-radius: 50%;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 1140px) {
+  /* nav {
+    background-color: green;
+  } */
+
+  .imageCircle {
+    width: 260px;
+    height: 260px;
+    transition: 0.2s;
+    right: 200px;
+  }
+}
+
+/* 
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    *{
+        outline: solid 1px ;
+    }
+
+  nav {
+    background-color: #f7f7f7;
+  }
+
+  .intro{
+    font-size: 55px;
+    transition: .2s;
+  }
+  .intro2{
+    font-size: 55px;
+    transition: .2s;
+  }
+
+  
+  .headerBlob {
+    width: 65%;
+    height: 40%;
+    transform: scale(1.1);
+    isolation: isolate;
+    opacity: 1;
+  }
+
+
+} */
+
+@media (max-width: 1024px) {
+  /* * {
+    outline: solid 1px;
+  } */
+
+  /* nav {
+    background-color: #f7f7f7;
+  } */
+  .navLogo {
+    font-size: 20px;
+  }
+
+  .headerSectionFirstHalf p {
+    font-weight: normal;
+    font-size: 17px;
+    color: #f7f7f7;
+    transition: 0.2s;
+    margin-top: 20px;
+    transition: 0.2s;
+  }
+  .htmlColor {
+    color: #eb5406;
+    font-weight: bolder;
+  }
+  .cssColor {
+    color: #2b65ec;
+    font-weight: bolder;
+  }
+  .jsColor {
+    color: #ffff00;
+    font-weight: bolder;
+  }
+
+  .headerSectionSecondHalf {
+    align-items: center;
+  }
+
+  .headerBlob {
+    height: 600px;
+    width: 500px;
+  }
+  .imageCircle {
+    top: 228px;
+    right: 175px;
+  }
+}
+
+@media (max-width: 973px) {
+  /* nav {
+    background-color: #ffff00;
+  } */
+
+  .intro,
+  .intro2 {
+    font-size: 47px;
+  }
+
+  .imageCircle {
+    top: 210px;
+    right: 120px;
+    transition: 0.2s;
+  }
+
+  .projectHeader h2 {
+    width: auto;
+    padding: 10px;
+  }
+
+  .projectSection {
+    height: auto;
+  }
+  .projectShowcase {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 903px) {
+  /* nav {
+    background-color: red;
+  } */
+
+  .navLogo {
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  .headerSectionSecondHalf {
+    height: 100%;
+  }
+
+  .checkbtn {
+    display: block;
+    transition: 0.5s;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    top: 0px;
+    top: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 5;
+    flex-direction: column; /* Added this line */
+    gap: 0px;
+    line-height: 0px;
+  }
+
+  nav ul a {
+    display: block;
+    margin: 20px 0;
+    line-height: 20px;
+  }
+
+  nav ul a li {
+    font-size: 20px;
+    color: #f7f7f7;
+    display: block;
+  }
+
+  .anchors li:hover {
+    background: none;
+    border: none;
+    color: #580ef6;
+    transform: scale(1.2);
+    transition: 0.2s;
+  }
+
+  #check:checked ~ ul {
+    top: 0;
+  }
+
+  .intro,
+  .intro2 {
+    font-size: 50px;
+  }
+
+  .imageCircle {
+    right: 146px;
+    transition: all 0.2s;
+  }
+
+  .techShowcase {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
+    transition: all 0.2s;
+    /* background-color: #2b65ec; */
+  }
+}
+
+@media (max-width: 790px) {
+  /* nav {
+    background-color: aqua;
+  } */
+  .imageCircle {
+    width: 220px;
+    height: 220px;
+    top: 250px;
+    right: 100px;
+  }
+  .intro,
+  .intro2 {
+    font-size: 42px;
+  }
+  .skillScale {
+    font-size: 13px;
+  }
+  .scale {
+    width: 300px;
+  }
+}
+
+@media (max-width: 694px) {
+  /* nav {
+    background-color: brown;
+  } */
+
+  .intro,
+  .intro2 {
+    font-size: 37px;
+  }
+
+  .skillScale {
+    font-size: 13px;
+  }
+  .scale {
+    width: 300px;
+  }
+
+  .headerSection {
+    flex-direction: column-reverse;
+  }
+
+  .headerSectionFirstHalf {
+    width: 100%;
+  }
+  .headerSectionFirstHalf p {
+    display: none;
+  }
+  .aboutSection {
+    display: block;
+  }
+  .headerBlob {
+    width: 350px;
+    height: 350px;
+  }
+  .imageCircle {
+    width: 180px;
+    height: 180px;
+    top: 154px;
+    right: 250px;
+  }
+
+  .headerSectionSecondHalf {
+    width: 100%;
+  }
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    transition: all 0.5s ease-in;
+    margin-top: 3px;
+  }
+
+  .intro2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    transition: all 0.5s ease-in;
+    margin-right: 27px;
+  }
+}
+
+@media (max-width: 620px) {
+  /* nav{
+        background-color: chartreuse;
+    } */
+
+  .headerSection {
+    height: 100vh;
+  }
+  .intro {
+    font-size: 45px;
+    transition: all 0.5s ease-in;
+  }
+
+  .intro2 {
+    font-size: 55px;
+    transition: all 0.5s ease-in;
+  }
+
+  .imageCircle {
+    width: 180px;
+    height: 180px;
+    top: 154px;
+    right: 205px;
+  }
+
+  .project,
+  .project2,
+  .project3 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .transparentcard {
+    font-size: 30px;
+  }
+  .contactHeader {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 524px) {
+  /* nav{
+        background-color: darkblue;
+    } */
+
+  .imageCircle {
+    right: 150px;
+  }
+  .navLogo {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 415px) {
+  /* *{
+        outline: solid ;
+    } */
+  .imageCircle {
+    top: 190px;
+    right: 120px;
+  }
+
+  .skillScale {
+    font-size: 13px;
+  }
+
+  .scale {
+    width: 200px;
+  }
+}
+@media (max-width: 378px) {
+  .imageCircle {
+    top: 140px;
+    right: 105px;
+  }
+}
+
+@media (max-width: 370px) {
+  .headerSection {
+    height: 100vh;
+  }
+
+  .imageCircle {
+    width: 170px;
+    height: 170px;
+    right: 80px;
+    top: 150px;
+  }
+
+  .intro,
+  .intro2 {
+    font-size: 40px;
+  }
+
+  .skillScale {
+    font-size: 10px;
+  }
+
+  .scale {
+    width: 180px;
+  }
+
+  .skillsHeader h2 {
+    font-size: 25px;
+  }
+  .projectHeader h2 {
+    font-size: 20px;
+  }
+
+  .project,
+  .project2,
+  .project3 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 300px) {
+  .navLogo {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+
+  .headerSection {
+    height: 100vh;
+  }
+
+  .imageCircle {
+    width: 140px;
+    height: 140px;
+    right: 80px;
+    top: 150px;
+  }
+
+  .intro,
+  .intro2 {
+    font-size: 35px;
+  }
+
+  .skillScale {
+    font-size: 13px;
+  }
+
+  .scale {
+    width: 100px;
+  }
+
+  .skillsHeader h2 {
+    font-size: 20px;
+  }
+  .projectHeader h2 {
+    font-size: 20px;
+  }
+
+  .project,
+  .project2,
+  .project3 {
+    width: 180px;
+    height: 180px;
+  }
+
+  .footer-inputs,
+  .messageBox {
+    width: 240px;
+  }
+}
