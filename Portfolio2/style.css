@@ -365,7 +365,7 @@ nav ul a li:hover {
   height: 100%;
   border-radius: 10px;
   background-color: #580ef6;
-  animation: leftToRight1 4s ease-in 2;
+  animation: leftToRight1 6s ease-in 1;
 }
 @keyframes leftToRight1 {
   from {
@@ -380,7 +380,7 @@ nav ul a li:hover {
   height: 100%;
   border-radius: 10px;
   background-color: #580ef6;
-  animation: leftToRight2 8s ease-in 2;
+  animation: leftToRight2 8s ease-in 1;
 }
 @keyframes leftToRight2 {
   from {
@@ -395,7 +395,7 @@ nav ul a li:hover {
   height: 100%;
   border-radius: 10px;
   background-color: #580ef6;
-  animation: leftToRight3 8s ease-in 2;
+  animation: leftToRight3 9s ease-in 1;
 }
 @keyframes leftToRight3 {
   from {
@@ -411,7 +411,7 @@ nav ul a li:hover {
   height: 100%;
   border-radius: 10px;
   background-color: #580ef6;
-  animation: leftToRight4 8s ease-in 2;
+  animation: leftToRight4 10s ease-in 1;
 }
 @keyframes leftToRight4 {
   from {
