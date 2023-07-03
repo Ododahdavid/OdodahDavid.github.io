@@ -10,7 +10,7 @@ html {
 }
 ::selection {
   background-color: #f7f7f7;
-  color: #580ef6;
+  color: #0909FF;
 }
 ::-webkit-scrollbar {
   width: 1rem !important ;
@@ -19,7 +19,7 @@ html {
   background-color: #3d3a50;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #580ef6;
+  background-color: #0909FF;
   border-radius: 10px;
 }
 
@@ -39,7 +39,7 @@ html {
 nav {
   width: 100%;
   height: 70px;
-  background-color: #1a1c22;
+  background-color:  #111111;
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -62,7 +62,7 @@ nav {
     color: #f7f7f7;
   }
   50% {
-    color: #580ef6;
+    color: #0909FF;
   }
   100% {
     color: #f7f7f7;
@@ -88,14 +88,14 @@ nav ul a li {
   font-size: 20px;
 }
 nav ul a li:hover {
-  color: #580ef6;
+  color: #0909FF;
   border-bottom: 3px solid #f7f7f7;
   transition: 0.1s;
 }
 .headerSection {
   width: 100%;
   height: auto;
-  background-color: #1a1c22;
+  background-color:  #111111;
   display: flex;
 }
 .headerSectionFirstHalf {
@@ -109,7 +109,7 @@ nav ul a li:hover {
     transparent 11%
   );
   background-size: 2em 2em;
-  background-color: #1a1c22;
+  background-color:  #111111;
 }
 .intro {
   width: 100%;
@@ -152,7 +152,7 @@ nav ul a li:hover {
     transparent 11%
   );
   background-size: 2em 2em;
-  background-color: #1a1c22;
+  background-color:  #111111;
 }
 
 .headerBlob {
@@ -181,7 +181,7 @@ nav ul a li:hover {
 .aboutSection {
   width: 100%;
   height: auto;
-  background-color: #1a1c22;
+  background-color:  #111111;
   color: #f7f7f7;
   display: none;
 }
@@ -195,7 +195,7 @@ nav ul a li:hover {
   text-transform: uppercase;
 }
 .aboutTitle h2 {
-  background-color: #580ef6;
+  background-color: #0909FF;
   border-radius: 10px;
   width: auto;
   padding: 5px;
@@ -213,12 +213,12 @@ nav ul a li:hover {
 .techSection {
   width: 100%;
   height: auto;
-  background-color: #1a1c22;
+  background-color:  #111111;
 }
 .techHeader {
   width: 100%;
   height: 50px;
-  background-color: #3d3a50;
+  background-color: #0909FF;
   color: #f7f7f7;
   display: flex;
   justify-content: center;
@@ -275,7 +275,7 @@ nav ul a li:hover {
 .skillSection {
   width: 100%;
   height: auto;
-  background-color: #1a1c22;
+  background-color:  #111111;
   /* overflow: hidden; */
   position: relative;
 }
@@ -283,7 +283,7 @@ nav ul a li:hover {
   border-radius: 10px;
   width: 100%;
   height: 100%;
-  background-color: #1a1c22;
+  background-color:  #111111;
   /* overflow: hidden; */
   background: radial-gradient(
     circle,
@@ -291,14 +291,14 @@ nav ul a li:hover {
     transparent 26%
   );
   background-size: 1em 1em;
-  background-color: #1a1c22;
+  background-color:  #111111;
   opacity: 1;
 }
 
 .skillsHeader {
   width: 100%;
   height: 60px;
-  background-color: #1a1c22;
+  background-color:  #111111;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,7 +308,7 @@ nav ul a li:hover {
   /* overflow: hidden; */
 }
 .skillsHeader h2 {
-  background-color: #580ef6;
+  background-color: #0909FF;
   height: auto;
   padding-left: 7px;
   padding-right: 7px;
@@ -364,7 +364,7 @@ nav ul a li:hover {
   width: 90%;
   height: 100%;
   border-radius: 10px;
-  background-color: #580ef6;
+  background-color: #0909FF;
   animation: leftToRight1 6s ease-in 1;
 }
 @keyframes leftToRight1 {
@@ -379,7 +379,7 @@ nav ul a li:hover {
   width: 79%;
   height: 100%;
   border-radius: 10px;
-  background-color: #580ef6;
+  background-color: #0909FF;
   animation: leftToRight2 8s ease-in 1;
 }
 @keyframes leftToRight2 {
@@ -394,7 +394,7 @@ nav ul a li:hover {
   width: 70%;
   height: 100%;
   border-radius: 10px;
-  background-color: #580ef6;
+  background-color: #0909FF;
   animation: leftToRight3 9s ease-in 1;
 }
 @keyframes leftToRight3 {
@@ -410,7 +410,7 @@ nav ul a li:hover {
   width: 95%;
   height: 100%;
   border-radius: 10px;
-  background-color: #580ef6;
+  background-color: #0909FF;
   animation: leftToRight4 10s ease-in 1;
 }
 @keyframes leftToRight4 {
@@ -438,7 +438,7 @@ nav ul a li:hover {
 .projectSection {
   width: 100%;
   height: 100vh;
-  background-color: #1a1c22;
+  background-color:  #111111;
 }
 .projectHeader {
   width: 100%;
@@ -452,7 +452,7 @@ nav ul a li:hover {
   color: #f7f7f7;
 }
 .projectHeader h2 {
-  background-color: #580ef6;
+  background-color: #0909FF;
   border-radius: 10px;
   width: auto;
   height: auto;
@@ -543,7 +543,7 @@ nav ul a li:hover {
 footer {
   width: 100%;
   height: auto;
-  background-color: #000000;
+  background-color:  #111111;
   padding: 40px;
 }
 .contactHeader {
@@ -584,7 +584,7 @@ form {
 .footer-inputs {
   border: none;
   outline: 2px #f7f7f7 solid;
-  background-color: #000000;
+  background-color:  #111111;
   border-radius: 5px;
   width: 300px;
   caret-color: #f7f7f7;
@@ -604,7 +604,7 @@ form {
   outline: solid 2px red !important;
 }
 .messageBox{
-  background-color: #000000;
+  background-color:  #111111;
   border: none;
   outline: 2px #f7f7f7 solid;
   width: 300px;
@@ -622,7 +622,7 @@ form {
   align-items: center;
 }
 .button-div button {
-  background-color: #000000;
+  background-color:  #111111;
   color: #f7f7f7;
   outline: 2px #f7f7f7 solid;
   font-weight: bold;
@@ -642,8 +642,8 @@ form {
   /* outline-offset: 20px; */
   cursor: pointer;
   background-color: #f7f7f7;
-  color: #000000;
-  /* outline: solid 2px #580ef6; */
+  color:  #111111;
+  /* outline: solid 2px #0909FF; */
   transition: .2s;
 }
 .socialsdiv{
