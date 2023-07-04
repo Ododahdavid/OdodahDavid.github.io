@@ -120,7 +120,7 @@ nav ul li a:hover{
 }
 .first-section{
     width: 100%;
-    height: 70vh;
+    height: auto;
     /* border: solid; */
     display: flex;
 }
@@ -233,7 +233,7 @@ nav ul li a:hover{
 }
 .second-section-header{
     width: 100%;
-    height: 40px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +263,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    
 }
 .card1{
     width: 15%;
@@ -334,7 +334,7 @@ nav ul li a:hover{
 }
 .third-section-header{
     width: 100%;
-    height: 60px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -464,8 +464,10 @@ nav ul li a:hover{
     align-items: center;
 }
 .container{
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 200px;
+    height: auto;
     /* border: solid green; */
     display: flex;
     justify-content: center;
@@ -479,7 +481,7 @@ nav ul li a:hover{
 .container-content{
     line-height: 1.2;
     width: 50%;
-    height: 100%;
+    height: auto;
     /* border: solid blue; */
     padding-top: 30px;
     padding-left: 20px;
@@ -500,6 +502,7 @@ nav ul li a:hover{
     left: 90%;
     top: 490%;
     z-index: 1;
+    display: none;
 }
 .seventh-section{
     width: 100%;
@@ -514,7 +517,7 @@ nav ul li a:hover{
 }
 .seventh-section-div2{
     width: 60%;
-    height: 100%;
+    height: auto;
     padding-left: 50px;
 }
 .yellow-see-through{
@@ -584,10 +587,18 @@ nav ul li a:hover{
 }
 .content1{
     display: flex;
+    height: auto;
+    color: black;
 }
 .content1 p{
     margin-top: 10px;
     margin-left: 10px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+    
 }
 .content-pics{
     width: 50px;
@@ -618,12 +629,12 @@ nav ul li a:hover{
 }
 footer{
     width: 100%;
-    height: 290px;
+    height: auto;
     background-color: #1A2631;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    
 }
 .footer-div{
     width: 100px;
@@ -656,6 +667,7 @@ footer{
     height: 280px;
     position: relative;
     left: 22%;
+    display: none;
 }
 .cloud-curl3{
     width: 200px;
@@ -663,4 +675,6 @@ footer{
     position: relative;
     left: -14%;
     top: 18%;
+    display: none;
 }
+
