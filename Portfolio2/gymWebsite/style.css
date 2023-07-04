@@ -1147,9 +1147,7 @@ select {
 }
 
 @media (max-width: 414px) {
-  * {
-    outline: dashed 1px white;
-  }
+ 
   .pic-text {
     z-index: 1;
     position: absolute;
