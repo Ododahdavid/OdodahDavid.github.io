@@ -385,6 +385,10 @@
   }
 }
 @media(max-width : 428px){
+  .imageCircle {
+    top: 190px;
+    right: 120px;
+  }
   .skillScale {
     font-size: 10px;
   }
