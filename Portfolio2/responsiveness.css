@@ -34,6 +34,12 @@
     border-radius: 50%;
     transition: 0.2s;
   }
+  .skillScale {
+    font-size: 13px;
+  }
+  .scale {
+    width: 300px;
+  }
 }
 
 @media (max-width: 1140px) {
