@@ -384,6 +384,14 @@
     font-size: 18px;
   }
 }
+@media(max-width : 428px){
+  .skillScale {
+    font-size: 10px;
+  }
+  .scale {
+    width: 200px;
+  }
+}
 
 @media (max-width: 415px) {
   /* *{
@@ -395,7 +403,7 @@
   }
 
   .skillScale {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .scale {
