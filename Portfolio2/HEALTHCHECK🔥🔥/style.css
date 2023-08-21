@@ -2,12 +2,12 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-
   box-sizing: border-box;
+ 
 }
 body {
   font-family: montserrat;
-  padding: 0px;
+  /* padding: 0px; */
 }
 ::-webkit-scrollbar {
   width: 1vw;
@@ -25,7 +25,19 @@ body {
   height: 100vh;
   width: 100%;
   background-size: cover;
-  margin-top: 0px;
+  /* margin-top: 0px; */
+}
+.checkbtn {
+  font-size: 40px;
+  color: white;
+  float: right;
+  line-height: 38px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
 }
 .nav1 {
   width: 100%;
@@ -34,6 +46,9 @@ body {
   backdrop-filter: blur(10px);
   padding: 15px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   position: fixed;
   z-index: 3;
 }
@@ -42,6 +57,9 @@ body {
   font-weight: bolder;
   font-size: 40px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-shadow: 2px 2px 2px black;
 }
 .logo_span {
@@ -102,7 +120,6 @@ button[type="submit"]:hover {
   background: transparent;
   color: white;
   padding: 16px;
-
   border-radius: 6px;
   border: none;
   cursor: pointer;
@@ -175,6 +192,9 @@ ul li a {
   height: 32px;
   border-bottom: 4px whitesmoke;
   margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav_div:hover {
   transform: scale(1.2);
@@ -187,22 +207,23 @@ a:hover {
   transition: 0.5s;
 }
 .space1 {
-  justify-content: end;
+  
   width: 100%;
-  height: 456px;
+  height: auto;
   display: flex;
   justify-content: space-between;
 }
 
 .write {
   width: 45%;
+  height: auto;
   flex: 4;
   padding: 40px;
 }
 .write-in {
   margin-top: 280px;
   border-radius: 10px;
-  height: 80%;
+  height: auto;
   width: 500px;
   background: transparent;
 
@@ -309,7 +330,7 @@ a:hover {
 .section2 {
   width: 100%;
   /* have to make this responsive for smaller screens */
-  height: 140vh;
+  height: auto;
   padding-top: 40px;
   background-color: #3a3b3c;
 }
@@ -322,9 +343,9 @@ a:hover {
   align-items: center;
 }
 .container2 {
-  padding: 29px 15px 0px 15px;
+  padding: 20px 15px 20px 15px;
   width: 100%;
-  height: 50%;
+  height: auto;
   display: flex;
   justify-content: space-around;
 }
@@ -344,22 +365,24 @@ a:hover {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 2);
   transition: all 0.3s ease-in;
 }
-.menu1:hover {
+/* .menu1:hover {
   border: none;
   transform: translate(10px, -20px);
   transition: all 0.3s ease-out;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 2);
-}
+} */
 .menu-title {
   border-bottom: solid 4px #0077ff;
   width: 100%;
   height: 60px;
   border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: whitesmoke;
 }
 .menu-h3 {
-  padding-left: 48px;
-  padding-top: 20px;
+ 
   font-weight: bold;
   font-size: 24px;
 }
@@ -374,15 +397,22 @@ a:hover {
   color: #2b65ec;
   font-weight: bold;
 }
+.card-button-div{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  margin-top: 10px;
+}
 .card-button {
-  margin-top: 20px;
-  margin-left: 150px;
   z-index: 1;
   border: 2px solid #0077ff;
   border-radius: 6px;
   position: relative;
   color: #0077ff;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 6em;
   height: 2.6em;
   border: 2px solid #0077ff;
@@ -395,9 +425,9 @@ a:hover {
   transition: 0.5s;
 }
 .container2ii {
-  padding: 15px 10px 10px 15px;
+  padding: 20px 15px 20px 15px;
   width: 100%;
-  height: 40%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -421,15 +451,15 @@ a:hover {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 2);
   transition: all 0.3s ease-in;
 }
-.menu2:hover {
+/* .menu2:hover {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 2);
   border: none;
   transform: translate(10px, -20px);
   transition: all 0.3s ease-out;
-}
+} */
 .overview-div {
   width: 100%;
-  height: 40vh;
+  height: auto;
   padding: 40px;
   background: url(./photos/istockphoto-1319844646-612x612.jpg) no-repeat;
   background-size: cover;
